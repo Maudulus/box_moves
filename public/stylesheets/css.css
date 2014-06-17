@@ -1,7 +1,7 @@
 /* CSS Document */
 body {
   background-size: 100%;
-  background-image:url("/images/olivia_huang_backgroundpattern.jpg"), url("");
+  background: #FFF3CA;
 }
 
 @font-face {
@@ -51,5 +51,6 @@ h1 {
   margin-right: 200px;
 }
 
-
-
+a:visited {
+color: #A69042;
+}

@@ -1,23 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script type="text/javascript" src="/javascripts/jquery.js"></script>
-    <script type="text/javascript" src="/javascripts/myjavascript.js"></script>
-    <link rel="stylesheet" href="/stylesheets/css.css" type="text/css" />
-    <title>TITLE</title>
-  </head>
-    <body >
-      <h1>TITLE</h1>
-        <div class="row">
-          <nav class="top-bar" data-topbar>
-              <ul>
-                <li><a href="/a">link a</a></li>
-                <li><a href="/b">link b</a></li>
-                <li><a href="/c">link c</a></li>
-                <li><a href="/d">link d</a></li>
-                <li><a href="/e">link e</a></li>
-              </ul>
-          </nav>
-        </div>
-    </body>
+<head>
+  <link rel="stylesheet" href="/stylesheets/css.css" type="text/css" />
+  <title>BOXMOVE</title>
+</head>
+  <body >
+    <h1>BOXMOVE</h1>
+      <div class="row">
+        <nav class="top-bar" data-topbar>
+            <ul>
+              <li><a href="/a"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about"></a></li>
+              <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+      </div>
+  </body>
+<style>
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #myCanvas:before {
+    border: 1px solid #4D7EB8;
+  }
+  #box1click {
+    float:right;
+    margin-right: 170px;
+    margin-bottom: 1px;
+    background: #10253F;
+    width: 100px;
+    height:20px;
+    color: #E2E4E7;
+    text-align: center;
+  }
+  #box2click {
+    float:right;
+    margin-right: 170px;
+    margin-top: -974px;
+    background: #10253F;
+    width: 100px;
+    height: 20px;
+    color: #E2E4E7;
+    text-align: center;"
+  }
+  #box1click:hover {
+    background: #5E7B9F;
+  }
+  #box2click:hover {
+    background: #5E7B9F;
+  }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title>Canvas Box Move</title>
+</head>
+
+<body>
+  <canvas id="myCanvas" width="1000" height="1000" style="border:3px solid #385D8A; outline:1px solid #7592B5; margin-left: 0px; margin-top: 0px; background-color: #B9CDE5"></canvas>
+  <div id="box1click">Center Box 1 </div>
+  <div id="box2click">Center Box 2 </div>
+
+
+<script type="text/javascript" src="/javascripts/myjavascript.js"></script>
+</body>
 </html>
