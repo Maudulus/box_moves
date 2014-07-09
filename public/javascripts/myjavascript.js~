@@ -35,7 +35,7 @@ var mouseDown = false,
 
   canvas.addEventListener('mousedown', function(e) {
     mouseDown = true;
-    mouseRect1Offset = isMouseOverRect(rect1, e.clientX, e.clientY); 
+    mouseRect1Offset = isMouseOverRect(rect1, e.clientX, e.clientY); // What is this?
     mouseRect2Offset = isMouseOverRect(rect2, e.clientX, e.clientY);
   });
 
